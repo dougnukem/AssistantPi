@@ -7,7 +7,8 @@
 logging: INFO
 
 sound:
-  # Name of your ALSA microphone/soundcard in arecord -L
+  # Name of your microphone device in PortAudio in arecord -L
+  # leave empty for defaul
   input_device: "pulse"
   # This is here if none of the listed devices works for you and you need to use a value like "plughw:1"
   # This is an override that is normally not needed and is a last resort.
